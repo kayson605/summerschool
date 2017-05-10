@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+/*
+	Theme Name: quatreange-pc
+	Description: カトルアンジュ（サムシングフォー西崎）のテーマです。
+	Theme URI: http://quatre-ange.com/
+	*/
+	
+@import url("css/styles.css");
+@import url("css/sub.css");
+@import url("css/slider-pro.min.css");
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC);
+@import url(https://fonts.googleapis.com/earlyaccess/sawarabimincho.css);
+
+/****************************************
+
+          Main
+
+*****************************************/
+
+#main .post,
+#main .page{
+	overflow: hidden;
+	margin-bottom: 59px;
+	border-bottom: 1px solid transparent;
+}
+
+.sticky{
+	/* 先頭固定ポストのスタイル */
+}
+
+.post-meta{
+	margin-bottom: 1.5em;
+}
+	.post-meta .post-date,
+	.post-meta .category{
+		padding-right: 1em;
+	}
+	.comment-num{ white-space: nowrap; }
+
+.more-link{
+	float: right;
+}
+
+.lightbox { display: none; }
+
+/****************************************
+
+          Clearfix
+
+*****************************************/
+
+#container:after,
+#header .menu > ul:after,
+#header ul.menu:after,
+.clearfix:after {
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	content: " ";
+	font-size: 0;
+}
+
+/* clearfix for ie7 */
+#container,
+#header .menu > ul,
+#header ul.menu,
+.clearfix {
+	display: inline-block;
+}
+
+#container,
+#header .menu > ul,
+#header ul.menu,
+.clearfix {
+	display: block;
+}
+
+
+
+
+/****************************************
+
+         新着記事
+
+*****************************************/
+
+/* コンテンツ */
+#newscontent	{margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+	width:1024px;
+	font-size:14px;}
+#newscontent .newsttl{
+	margin:0px;
+	padding:70px 0px 50px 0px;
+	text-align:center;
+}
+#newscontent a:hover{
+	text-decoration:underline;
+}
+p#pagetitle	{
+	font-weight: bold;
+	color: #444444;
+	text-align: center;
+	padding: 0px 0px 50px 0px;
+	margin-top: 0;
+	font-size:34px;	
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	}
+
+/* 記事 */
+div#postitiran	{
+	width: 818px;
+	float: right;
+	}
+div.post	{border: solid 1px #B38D55;
+	padding: 15px;
+	margin-bottom: 20px;
+	background-color:#fff;	
+	}
+
+div.post h2	{
+	background-color: #B38D55;
+	color:#fff;
+	font-size: 12px;
+	padding: 10px 15px;
+	margin: 0px 0px 20px 0px;
+	font-weight:bold;
+	}
+
+div.post h2 a:link,
+div.post h2 a:visited,
+div.post h2 a:hover	{text-decoration: none;
+	color: #fff;}
+
+#postitiran .post p	{
+	font-size: 12px;
+	line-height: 1.8;
+	margin: 0px;
+	padding:0px 5px 5px 5px;
+	}
+
+#postitiran .postinfo	{
+	color: #B99A6E;
+	font-size:12px;
+	text-align: right;
+	margin: 30px 0px 0px 0px;
+	clear: both;}
+
+
+
+/* 記事内の画像 */
+#postitiran .post img	{
+	border: none;
+	max-width:100%;
+	height:auto;
+	margin:0 auto;
+		}
+.wp-caption	{border: solid 1px #aaaaaa;
+	text-align: center;
+	padding-top: 5px;}
+
+
+/* ページリンク */
+span.oldpage	{float: left;}
+
+span.newpage	{float: right;}
+
+p.pagelink{
+	padding:15px 0px 30px 0px;	
+	clear:both;
+}
+	
+p.pagelink a	{
+	font-size: 12px;
+	color: #0c8bcd;
+	padding:30px 0px;	
+	}
+
+p.pagelink	{overflow: hidden;
+	width: 100%;}
+
+
+/* サイドバー */
+div#sidebar	{width: 180px;
+	float: left;
+	padding-bottom:50px;}
+
+div#sidebar ul	{margin: 0;
+	padding: 0;}
+
+div#sidebar li	{
+	list-style-type: none;
+	margin-bottom: 4px;
+	background-image: url(http://quatre-ange.com/quatreange/wp-content/themes/quatreange-pc/images/listmark.gif);
+	background-repeat: no-repeat;
+	padding-left: 16px;
+}
+div#sidebar li a:link,	
+div#sidebar li a:visited{
+	text-decoration: none;
+	color: #B99A6E;
+}
+div#sidebar li a:hover{
+	text-decoration: underline;
+	color: #B99A6E;
+}
+div#sidebar .widget	{
+	border: solid 1px #B99A6E;
+	padding: 16px;
+	margin-bottom: 10px;}
+
+div#sidebar .widgettitle{
+	font-size:14px;
+}
+div#sidebar h2	{
+	color: #B99A6E;
+	border-bottom: solid 1px #B99A6E;
+	padding-bottom: 8px;
+	margin: 0 0 10px;}
+
+
+/* カレンダー */
+.widget_calendar h2	{display: none;}
+
+#wp-calendar	{font-size: ;
+	color: #B99A6E;
+	width: 100%;}
+
+#wp-calendar a	{color: #009999;}
+
+#wp-calendar td, #wp-calendar th
+	{text-align: center}
+
+#wp-calendar caption	{font-weight: bold;
+	text-align: left;
+	border-bottom: solid 1px #B99A6E;
+	padding-bottom: 8px;
+	margin-bottom: 8px;}
+
+#wp-calendar #prev	{text-align: left;
+	padding-top: 3px;}
+
+#wp-calendar #next	{text-align: right;
+	padding-top: 3px;}

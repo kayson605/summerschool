@@ -1,0 +1,559 @@
+
+/* .concept
+----------------------------------------------- */
+#container .concept_back{
+	background:url(../images/concept/concept_img1.png) center 50px no-repeat #A7936F;
+}
+#container .concept{
+	width:650px;
+	margin:0 auto;
+	text-align:center;
+	padding:30px 0px 30px 0px;
+}
+#container .concept h2{	
+	margin:0px;	
+	padding:0px 0px 10px 0px;
+	line-height:1.5;
+	font-size:44px;
+	text-align:center;
+	font-weight:bold;
+	font-family: 'Playfair Display SC';
+	font-weight:normal;
+	background:url(../images/weddingplan/title_border-w.gif) center bottom no-repeat;
+	color:#fff;
+}
+#container .concept h4{	
+	margin:0px;	
+	padding:20px 0px;
+	line-height:1.8;
+	font-size:28px;
+	color:#ECECEC;
+	font-weight:bold;
+	font-family: "Sawarabi Mincho";
+	font-weight:normal;
+}
+#container .concept h4 span{	
+	font-size:22px;	
+}
+#container .concept h6{	
+	margin:0px;	
+	padding:20px 0px;
+	line-height:1.8;
+	font-size:35px;
+	color:#444444;
+	font-weight:bold;
+	font-family: "Sawarabi Mincho";
+	font-weight:normal;
+}
+#container .concept h6 span{	
+	font-size:22px;	
+}
+#container .concept p{
+	color:#fff;
+	line-height:2.3;
+	font-size:14px;
+	padding-bottom:20px;
+}
+
+#container .concept2_back{
+	background-image:url(../images/concept/concept_back.jpg);
+	background-repeat:no-repeat;
+	background-position: center top;
+	background-size:100% auto;/*この場合は高さが自動設定*/
+}
+#container .concept2{
+	width:1080px;
+	margin:0 auto;
+	text-align:center;
+	padding:30px 0px 30px 0px;
+}
+#container .concept2 h5{	
+	margin:0px;	
+	padding:20px 0px;
+	line-height:1.8;
+	font-size:28px;
+	color:#ECECEC;
+	font-weight:bold;
+	font-family: "Sawarabi Mincho";
+	font-weight:normal;
+}
+#container .concept2 p{
+	color:#fff;
+	line-height:2.3;
+	font-size:14px;
+	padding-bottom:20px;
+}
+#container .concept2boxL{
+	width:735px;
+	float:left;
+	text-align:left;
+}
+#container .concept2boxR{
+	width:300px;
+	float:right;
+	text-align:center;
+}
+#container .concept2boxR p{
+	font-size:12px;
+	padding-top:15px;
+}
+#container .concept2 ul{
+	margin:0px;
+	padding:0px;
+}
+#container .concept2 li{
+	margin:0px 20px 0px 20px;
+	padding:0px;
+	list-style-type:none;
+	float:left;
+	text-align:center;
+}
+#container .marublue{
+	 background: #008C8C;
+    height: 192px;
+    width: 192px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+#container .marublue p {
+  padding:40px 20px;
+  line-height:1.6;
+}
+
+#container .conceptbox{
+	width:100%;
+	clear:both;
+	background-color:#E3E3E3;
+	line-height:1.96;
+	}
+#container .conceptbox img{
+	margin:0;
+	padding:0;
+	vertical-align:bottom;
+	}
+#container .conceptryouriL{
+	width:50%;
+	float:left;
+}
+#container .conceptryouriR{
+	width:50%;
+	float:right;
+	font-family: "Sawarabi Mincho";
+	font-size:22px;
+	background-color:#E3E3E3;
+	color:#444;
+    text-align:center;
+	position: relative;
+  }
+#container .conceptroomL{
+	width:50%;
+	float:left;
+	font-family: "Sawarabi Mincho";
+	font-size:22px;
+	background-color:#E3E3E3;
+	color:#444;
+    text-align:center;
+	position: relative;
+}
+#container .conceptroomR{
+	width:50%;
+	float:right;
+	 }
+#container .concept-child {
+  position: relative;
+  top: 50%;
+  padding-top:20%;
+  }
+@media screen and (max-width: 1140px) {
+#container .conceptryouriR,
+#container .conceptryouriL,
+#container .conceptroomR,
+#container .conceptroomL{
+	width:100%;
+}
+#container .concept-child {
+  position: relative;
+  top: 50%;
+  padding:50px;
+  }
+}
+#container .choice{
+	margin:0 auto;
+	padding:0px 0px 50px 0px;
+	text-align:center;
+	clear:both;
+}
+
+/* .weddingplan
+----------------------------------------------- */
+#container .weddingplan_page{
+	background-color:#A7936F;
+	text-align:center;
+	padding:40px 0px 20px 0px;
+}
+#container .weddingplan_page h2{	
+	margin:0px;	
+	padding:0px 0px 10px 0px;
+	line-height:1.5;
+	font-size:44px;
+	text-align:center;
+	font-weight:bold;
+	font-family: 'Playfair Display SC';
+	font-weight:normal;
+	background:url(../images/weddingplan/title_border-w.gif) center bottom no-repeat;
+	color:#fff;
+}
+#container .weddingplan_page h4{	
+	margin:0px;	
+	padding:20px 0px;
+	line-height:1.8;
+	font-size:28px;
+	color:#ECECEC;
+	font-weight:bold;
+	font-family: "Sawarabi Mincho";
+	font-weight:normal;
+}
+#container .weddingplan_page h4 span{	
+	font-size:22px;	
+}
+#container .weddingplan_style{
+	background-color:#fff;
+	text-align:center;
+	padding:0px 0px 40px 0px;
+	width:770px;
+	margin:0 auto;
+}
+#container .weddingplan_style span{
+	font-size:16px;
+}
+#container .weddingplan_style h5{	
+	margin:50px 0px 40px 0px;	
+	padding:0px 0px 10px 0px;
+	line-height:1.5;
+	font-size:35px;
+	text-align:center;
+	font-weight:bold;
+	font-family: "Sawarabi Mincho";
+	font-weight:normal;
+	background:url(../images/weddingplan/title_border.gif) center bottom no-repeat;
+	color:#444;
+}
+#container .weddingplan_style p{
+	color:#444;
+	font-size:16px;
+	line-height:1.7;
+	padding-bottom:20px;
+}
+#container .weddingplan_style td{
+	border-bottom:1px solid #ddd;
+	font-size:21px;
+	color:#444;
+	padding:15px;
+}
+#container .planbutton {
+	display: inline-block;
+	width:270px;
+	height: 32px;
+	text-decoration: none;
+	line-height: 32px;
+	outline: none;
+	width:270px;
+	margin:30px auto 30px auto;
+	font-size:18px;
+	font-weight:normal;
+	background-color:#F59D9B;
+	color:#fff;
+    text-align:center;
+}
+#container .kaku_page{
+	font-size:21px;
+	text-align:center;
+	font-family: "Sawarabi Mincho";
+	padding:30px 0px 60px 0px;
+	line-height:1.75;
+	color:#fff;
+	}
+#container .kaku_page img{
+	padding-bottom:25px;
+}
+#container .kaku_page_w{
+	font-size:17px;
+	text-align:center;
+	font-family: "Sawarabi Mincho";
+	color:#000;
+	padding:30px 0px 50px 0px;
+	line-height:2.0;
+	}
+#container .kaku_page_w img{
+	padding-bottom:30px;
+}
+#container .kaku_page_w h5{	
+	margin:20px 0px 70px 0px;	
+	padding:0px 0px 10px 0px;
+	line-height:1.5;
+	font-size:28px;
+	text-align:center;
+	font-weight:bold;
+	font-family: "Sawarabi Mincho";
+	font-weight:normal;
+	background:url(../images/weddingplan/title_border.gif) center bottom no-repeat;
+	color:#444;
+}
+#container .kaku_page_item{
+	padding-top:40px;
+}
+#container .weddingplan_topspace{
+	margin-top:50px;
+}
+.plan_slide{
+	padding-top:0px;
+}
+.plan_slide ul,li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#container .kaku_page_w2{
+	font-size:17px;
+	text-align:center;
+	font-family: "Sawarabi Mincho";
+	color:#000;
+	padding:0px 0px 50px 0px;
+	line-height:2.0;
+	}
+#container .kaku_page_w2 img{
+	padding-bottom:0px;
+}
+/* 各プランの設定 */
+#container .romantic_page{
+	background-repeat:no-repeat;
+	background-image:url(../images/weddingplan/romantic_img.gif);
+	background-position: center top;
+	background-size:100% 400px;
+	min-height:360px;
+	}
+#container .romantic_page_b{
+	background-repeat:no-repeat;
+	background-image:url(../images/weddingplan/romantic_women.png);
+	background-position: center 130px;
+	background-size:321px 351px;
+	background-color:#F3ECE0;
+	min-height:450px;
+	}
+#container .elegant_page{
+	background-repeat:no-repeat;
+	background-image:url(../images/weddingplan/elegant_img.gif);
+	background-position: center top;
+	background-size:100% 360px;
+	}
+#container .elegant_page_b{
+	background-repeat:no-repeat;
+	background-image:url(../images/weddingplan/elegant_women.png);
+	background-position: center 130px;
+	background-size:257px 384px;
+	background-color:#F3ECE0;
+	min-height:480px;
+	}
+#container .natural_page{
+	background-repeat:no-repeat;
+	background-image:url(../images/weddingplan/natural_img.gif);
+	background-position: center top;
+	background-size:100% 380px;
+	min-height:335px;
+	}
+#container .natural_page_b{
+	background-repeat:no-repeat;
+	background-image:url(../images/weddingplan/natural_women.png);
+	background-position: center 130px;
+	background-size:331px 381px;
+	background-color:#F3ECE0;
+	min-height:480px;
+	}
+#container .ryukyu_page{
+	background-repeat:no-repeat;
+	background-image:url(../images/weddingplan/ryukyu_imgback.jpg);
+	background-position: center bottom;
+	background-size:100% auto;
+	}
+
+#container .ryukyu_page_b{
+	background-repeat:no-repeat;
+	background-image:url(../images/weddingplan/ryukyu_women.png);
+	background-position: center 130px;
+	background-size:282px 375px;
+	background-color:#F3ECE0;
+	min-height:480px;
+	}
+
+/* .userreport
+----------------------------------------------- */
+#container .userreport_back{
+	background-color:#F3ECE0;
+}
+#container .userreport{
+	text-align:center;
+	padding:20px 0px 40px 0px;
+	width:720px;
+	margin:0 auto;
+	font-size:16px;
+}
+#container .userreport h5{	
+	margin:50px 0px 40px 0px;	
+	padding:0px 0px 10px 0px;
+	line-height:1.5;
+	font-size:27px;
+	text-align:center;
+	font-weight:bold;
+	font-family: "Sawarabi Mincho";
+	font-weight:normal;
+	color:#444;
+}
+#container .userreport p{
+	color:#111;
+	line-height:1.7;
+	padding-bottom:50px;
+}
+#container .userreport img{
+	padding-bottom:20px;
+}
+#container .username{
+	font-size:18px;
+	font-family: "Sawarabi Mincho";
+}
+
+/* .imagegallery
+----------------------------------------------- */
+#container .imagegallery_back{
+	background-color:#F3ECE0;
+}
+#container .imagegallery{
+	text-align:center;
+	padding:20px 0px 40px 0px;
+	width:1170px;
+	margin:0 auto;
+	font-size:16px;
+}
+#container .imagegallery img{
+	padding:15px;
+}
+@media screen and (max-width: 1100px) { 
+/* ipad用（幅が1100px未満のウインドウ用）*/
+#container .imagegallery{
+	width:1000px;
+	}
+#container .imagegallery img{
+	width:100%;
+max-width: 100%;
+height: auto;	
+}
+#container .imagegallery td{
+	padding-left:15px;
+	padding-right:15px;
+}
+}
+/* .contact
+----------------------------------------------- */
+#container .contact-tel{	
+	margin:50px 0px 20px 0px;	
+	padding:0px 0px 10px 0px;
+	line-height:1.5;
+	font-size:30px;
+	text-align:center;
+	font-weight:bold;
+	font-family: "Sawarabi Mincho";
+	font-weight:normal;
+	color:#444;
+}
+#contact{
+	padding-top:50px;
+}
+#contact .contact-table{
+	background-color:#FFFFF3;
+	width:600px;
+	margin:0px auto 0px auto;
+	padding:20px 30px 0px 30px;
+	font-size:14px;
+	text-align:left;
+}
+#contact td{
+	padding:15px 15px 15px 0px;
+	}
+#contact .bo{
+	border-bottom:1px dashed #ccc;
+}
+#contact input{
+border:0;
+padding:6px;
+font-size:14px;
+font-family:Arial, sans-serif;
+border:solid 1px #ccc;
+}
+#contact textarea{
+border:0;
+padding:6px;
+font-size:14px;
+font-family:Arial, sans-serif;
+border:solid 1px #ccc;
+width:300px;
+}
+#contact select{
+border:0;
+padding:6px;
+font-size:14px;
+font-family:Arial, sans-serif;
+border:solid 1px #ccc;
+}
+#contact input.example300 { width: 300px; }
+#contact input.example150 { width: 150px; }
+#contact .hissu{
+	background:url(../images/contact/hissu_icon.gif) no-repeat;
+}
+#contact .kakunin{
+	text-align:center;
+	margin:0 auto 0px auto;
+	padding:30px 0px 70px 0px;
+}
+#contact .setumei{
+	font-size:12px;
+	color:#777;
+	line-height:2.0;
+}
+#image-btn{
+	border: 0px;
+    width: 172px;
+    height: 46px;
+	background:url(../images/contact/kakunin_btn.gif) left top no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

@@ -1,0 +1,656 @@
+@charset "Shift_JIS";
+/* CSS Document */
+
+
+/* body
+----------------------------------------------- */
+body {
+	margin: 0px auto;
+	padding: 0px;
+	font-family:"Hiragino Kaku Gothic ProN", Meiryo, "ÇlÇr Çoñæí©", "MS PMincho", "ÉqÉâÉMÉmñæí© Pro W3", "Hiragino Mincho Pro", serif;
+	height:100%;
+	overflow-x: hidden;
+	}
+.wf-hannari { font-family: "Hannari"; }
+
+/* topÉÅÉCÉìÉCÉÅÅ[ÉWÇÃÉçÉS
+----------------------------------------------- */
+.sp-logobox{
+	width: 100vw;
+  height: 100vh;
+  display: flex; /* óvëfÇflexboxÇ…ëŒâûÇ≥ÇπÇÈ */
+  align-items: center; /* ècï˚å¸ÇÃíÜâõëµÇ¶ */
+  justify-content: center; /* â°ï˚å¸ÇÃíÜâõëµÇ¶ */
+  flex-direction: column; /* éqóvëfÇÃï¿Ç—Çè„Ç©ÇÁâ∫Ç…Ç∑ÇÈÅióvëfÇÃâ¸çsÇ…ëŒâûÅj */
+  text-align:center;
+  z-index:2;
+  position: absolute;
+  font-size:70px;
+ color:#fff;
+ text-shadow: -2px 2px 0 rgba(0,0,0,0.3);
+ font-family: 'Playfair Display SC', cursive, "ÇlÇr Çoñæí©", "MS PMincho", "ÉqÉâÉMÉmñæí© Pro W3", "Hiragino Mincho Pro", serif;
+}
+.sp-logobox span{
+	font-size:70px;
+}
+	
+/* link color
+----------------------------------------------- */
+a:link,
+a:visited,
+a:active {
+	text-decoration: none;
+	color: #333;
+	transition: 1.0s ;
+	}
+a:hover {
+	text-decoration: none;
+	color: #003366;
+	}
+
+/* images
+----------------------------------------------- */
+img {
+	padding: 0px;
+	margin: 0px;
+	border:0px;
+	}
+a img{
+	-webkit-transition: opacity 1s ease-out;
+-moz-transition: opacity 1s ease-out;
+-ms-transition: opacity 1s ease-out;
+transition: opacity 1s ease-out;
+}
+a:hover img{	
+	opacity:0.7;
+filter:alpha(opacity=70);
+-ms-filter: "alpha( opacity=70 )";
+}	
+p{
+	margin:0px;
+	padding:0px;
+	}
+ul,li{
+	margin:0px;
+	padding:0px;
+	}
+
+/* header
+----------------------------------------------- */
+#global-header {
+    padding: 0;
+    width: 100%;
+    height: 115px;
+	border-bottom:1px #ccc solid;
+    background:rgba(255,255,255,1.0);
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#99ffffff,EndColorStr=#99ffffff);/*IE8à»â∫óp*/
+    z-index: 5000;
+	position: fixed;
+    top: 0;
+	clear:both;
+}
+
+#header {
+	margin: 0px auto;
+	padding: 0px;
+	width: 1100px;
+	height: 80px;
+	clear:both;
+	}
+/* IE10à»ç~ */
+@media all and (-ms-high-contrast:none){
+  #header {
+    width: 1200px;
+  }
+}
+#headerLogo {
+	padding: 0px 0px 0px 24px;
+	width: 162px;
+	float: left;
+	padding-top:14px;
+	}
+/* IE10à»ç~ */
+@media all and (-ms-high-contrast:none){
+  #headerLogo {
+	padding: 0px 0px 0px 60px;
+	width: 162px;
+	float: left;
+	padding-top:14px;
+	}
+}
+/* edgge */
+_:-ms-lang(x), _::-webkit-meter-bar,#header {
+    width: 1200px;
+  }
+_:-ms-lang(x), _::-webkit-meter-bar,#headerLogo {
+	padding: 0px 0px 0px 73px;
+	float: left;
+	padding-top:14px;
+	}
+#headerLogo a:link img{
+	transition: 1.0s ;
+}
+#headerLogo a:hover img{	
+	opacity:0.7;
+filter:alpha(opacity=70);
+-ms-filter: "alpha( opacity=70 )";
+}
+#headerLogo h1 {
+	margin: 0px;
+	padding: 0px;
+	}
+#global-header .headright_sub{
+	float:right;
+	right:0px;
+	text-align:right;
+}
+#global-header .headright_sub ul{
+	margin:0px;
+	padding:0px;
+}
+#global-header .headright_sub li{
+	margin:0px;
+	margin-right:10px;
+	padding:5px 0px;
+	float:left;
+	list-style-type:none;
+	background-color:#A7936F;
+	text-align:center;
+	width:110px;
+	color:#fff;
+	font-size:14px;
+	display:block;
+}
+#global-header .headright_sub a:link,
+#global-header .headright_sub a:visited{
+	color:#ffffff;
+	display: block;  
+	text-decoration:none;
+	padding:3px 0px;
+	transition: 1.0s ;
+}
+#global-header .headright_sub a:hover{
+	color:#DDD6C8;
+	text-decoration:none;
+	padding:3px 0px;
+}
+#global-header .headleft_main{
+	float:left;
+	left:0px;
+	text-align:left;
+	margin-top:60px;
+}
+#global-header .headleft_main ul{
+	margin:0px;
+	padding:0px;
+}
+#global-header .headleft_main li{
+	margin:0px;
+	padding:0px 30px 0px 0px;
+	float:left;
+	list-style-type:none;
+	text-align:left;
+	color:#664C00;
+	font-size:16px;
+	display:block;
+	font-weight:bold;
+	font-family: 'Playfair Display SC', "ÇlÇr Çoñæí©", "MS PMincho", "ÉqÉâÉMÉmñæí© Pro W3", "Hiragino Mincho Pro", serif ;
+}
+#global-header .headright_main{
+	float:right;
+	right:0px;
+	text-align:right;
+	margin-top:23px;
+}
+#global-header .headright_main ul{
+	margin:0px;
+	padding:0px;
+}
+#global-header .headright_main li{
+	margin:0px;
+	padding:0px 0px 0px 30px;
+	float:right;
+	list-style-type:none;
+	text-align:right;
+	color:#664C00;
+	font-size:16px;
+	display:block;
+	font-weight:bold;
+	font-family: 'Playfair Display SC', "ÇlÇr Çoñæí©", "MS PMincho", "ÉqÉâÉMÉmñæí© Pro W3", "Hiragino Mincho Pro", serif;
+}
+#global-header .headright_main a:link,
+#global-header .headleft_main a:link,
+#global-header .headright_main a:visited,
+#global-header .headleft_main a:visited{
+	color:#664C00;
+	display: block;  
+	text-decoration:none;
+	padding:0px 10px;
+	transition: 1.0s ;
+}
+#global-header .headright_main a:hover,
+#global-header .headleft_main a:hover{
+	color:#B38D55;
+	text-decoration:none;
+	padding:0px 10px;
+}
+#global-header .headright_main_bo{
+	border-right:1px solid #888888;
+	}
+@media screen and (max-width: 1100px) { 
+/* ipadópÅiïùÇ™1100pxñ¢ñûÇÃÉEÉCÉìÉhÉEópÅj*/
+#global-header .headleft_main li{
+	padding:0px 20px 0px 0px;
+	}
+#global-header .headright_main li{
+	padding:0px 0px 0px 20px;
+	}
+#full{
+	display:none;
+}
+.ipadimg{
+	background-image:url(../images/top/mainimg1.jpg);
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	width:100%;
+	height:550px;
+	margin-top:100px;
+}
+.ip-logobox{
+	width: 100vw;
+  top:350px;
+  display: flex; /* óvëfÇflexboxÇ…ëŒâûÇ≥ÇπÇÈ */
+  align-items: center; /* ècï˚å¸ÇÃíÜâõëµÇ¶ */
+  justify-content: center; /* â°ï˚å¸ÇÃíÜâõëµÇ¶ */
+  flex-direction: column; /* éqóvëfÇÃï¿Ç—Çè„Ç©ÇÁâ∫Ç…Ç∑ÇÈÅióvëfÇÃâ¸çsÇ…ëŒâûÅj */
+  text-align:center;
+  z-index:2;
+  position: absolute;
+  font-size:70px;
+ color:#fff;
+ text-shadow: -2px 2px 0 rgba(0,0,0,0.3);
+ font-family: 'Playfair Display SC', cursive, "ÇlÇr Çoñæí©", "MS PMincho", "ÉqÉâÉMÉmñæí© Pro W3", "Hiragino Mincho Pro", serif;
+}
+.ip-logobox span{
+	font-size:70px;
+}
+}
+
+
+/* container
+----------------------------------------------- */
+#container {
+	margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	}
+#wrapper{
+	top:490px;
+	position: absolute;
+	width: 100%;
+}
+#submain{
+	width: 100%;
+	height: 380px;
+	position: absolute;
+	top: 110px;
+}
+#container h3{	
+	margin:0px;	
+	padding:0px 0px 20px 0px;
+	line-height:1.0;
+	font-size:35px;
+	text-align:center;
+	font-weight:bold;
+	font-family: 'Playfair Display SC';
+	font-weight:normal;
+	background:url(../images/top/title_border.gif) center bottom no-repeat;
+}
+#container h3 span{	
+	font-size:16px;	
+	font-family: "Sawarabi Mincho";
+}	
+	
+/* .chapel
+----------------------------------------------- */
+#container .chapel_back{
+	background:url(../images/top/topimg1.png) center 50px no-repeat #A7936F;
+}
+#container .chapel{
+	width:650px;
+	margin:0 auto;
+	text-align:center;
+	padding:30px 0px 80px 0px;
+}
+#container .chapel h2{	
+	margin:0px;	
+	padding:20px 0px;
+	line-height:2.0;
+	font-size:34px;
+	color:#ECECEC;
+	font-weight:bold;
+	font-family: "Sawarabi Mincho";
+	font-weight:normal;
+}
+#container .chapel h2 span{	
+	font-size:22px;	
+}
+#container .chapel p{
+	color:#fff;
+	line-height:2.0;
+	font-size:14px;
+}
+#container .chapelbox{
+	width:100%;
+	clear:both;
+	}
+#container .chapelbox img{
+	margin:0;
+	padding:0;
+	vertical-align:bottom;
+}
+#container .chapelryouriL{
+	width:50%;
+	float:left;
+}
+#container .chapelryouriR{
+	width:50%;
+	float:right;
+	font-family: "Sawarabi Mincho";
+	font-size:28px;
+	background-color:#159EA9;
+	color:#fff;
+    text-align:center;
+	position: relative;
+  }
+#container .chapelroomL{
+	width:50%;
+	float:left;
+	font-family: "Sawarabi Mincho";
+	font-size:28px;
+	background-color:#2D221D;
+	color:#fff;
+    text-align:center;
+	position: relative;
+}
+#container .chapelroomR{
+	width:50%;
+	float:right;
+	 }
+#container .child {
+  position: relative;
+  top: 50%;
+  padding-top:20%;
+  }
+@media screen and (max-width: 1140px) {
+#container .chapelryouriR,
+#container .chapelryouriL,
+#container .chapelroomR,
+#container .chapelroomL{
+	width:100%;
+}
+#container .child {
+  position: relative;
+  top: 50%;
+  padding:50px;
+  }
+}
+
+/* .news
+----------------------------------------------- */
+#container .news{
+	margin: 0px auto;
+	padding: 45px 0px;
+	width:1023px;
+	font-size:14px;
+	}
+#container .news img{
+	vertical-align:middle;
+	}
+#container .news_back{
+	background-color:#F8EEED;
+}
+#container .news h3{	
+	color:#545454;
+}
+#container .news dl{
+	width:1023px;
+	clear:both;
+	padding:10px 0px 5px 0px;
+    vertical-align: middle;
+}
+#container .news dt{
+	float:left;
+}
+#container .news dt img{
+	padding-right:10px;
+}
+#container .news dd{
+	margin-left:100px;
+	padding-top:5px;
+}
+#container .news dd span{
+	color:#2E659E;
+	font-size:15px;
+	padding-bottom:5px;
+}
+#container .news_bnr{
+	width: 100%;
+	padding-top:30px;
+}
+#container .news_bnr2{
+	width: 100%;
+	padding-top:100px;
+}
+
+/* .photogallery
+----------------------------------------------- */
+#container .photogallery{
+	margin: 0px auto;
+	padding: 45px 0px 50px 0px;
+	width:100%;
+	}
+#container .photogallery h3{	
+	color:#545454;
+}
+#container .shousaibotton{
+	width:200px;
+	margin:0 auto;
+	text-align:center;
+	}
+#container .shousaibotton a:link,
+#container .shousaibotton a:visited{
+	color:#fff;
+	text-decoration:none;
+	transition: background-color 1s;
+}
+#container .shousaibotton a:hover{
+	background-color:#859CD3;
+	text-decoration:none;
+}
+.pbutton {
+	display: inline-block;
+	width:158px;
+	height: 40px;
+	text-decoration: none;
+	line-height: 40px;
+	outline: none;
+	width:158px;
+	margin:0 auto;
+	font-family: "Sawarabi Mincho";
+	font-size:14px;
+	font-weight:normal;
+	background-color:#4F70C1;
+	color:#fff;
+    text-align:center;
+}
+#main_slide{
+	padding-top:50px;
+}
+#main_slide ul,li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/* .weddingplan
+----------------------------------------------- */
+#container .weddingplan_back{
+	background-repeat:no-repeat;
+	background-image:url(../images/top/plan_backimg.jpg);
+	background-position: center top;
+	background-size:100% auto;/*Ç±ÇÃèÍçáÇÕçÇÇ≥Ç™é©ìÆê›íË*/
+}
+#container .weddingplan{
+	width: 1080px;
+	margin:0 auto;
+	text-align:center;
+	padding:30px 0px 80px 0px;
+}
+#container .weddingplan h3{	
+	color:#fff;
+	background:url(../images/top/title_border-w.gif) center bottom no-repeat;
+	margin-bottom:35px;
+}
+#container .weddingplan_box{
+	width:224px;
+	padding:10px 10px 15px 10px;
+	background-color:#fff;
+	margin:0px 13px 50px 13px;
+	color:#212121;
+	float:left;
+	font-size:12px;
+}
+@media screen and (max-width: 1080px) {
+	#container .weddingplan{
+	width: 600px;
+	}
+	#container .weddingplan_box{
+	border:1px solid #BAB5AD;
+	}
+}
+#container .weddingplan_box img{
+	padding-bottom:10px;
+}
+#container .weddingplan_box p{
+	text-align:left;
+	padding-bottom:10px;
+}
+.weddingplan_button {
+	display: inline-block;
+	width:76px;
+	height: 22px;
+	text-decoration: none;
+	line-height: 22px;
+	outline: none;
+	width:76px;
+	margin:0 auto;
+	font-family: "Sawarabi Mincho";
+	font-size:12px;
+	font-weight:normal;
+	background-color:#4F70C1;
+	color:#fff;
+    text-align:center;
+	letter-spacing:1em;
+	text-align:center;
+	text-indent:1em;
+}	
+
+/*----------------------------------------------------
+	#footer
+----------------------------------------------------*/
+
+#footer{
+	background-color:#8D7A56;
+	height:250px;
+	}
+#footer .footer_innner{
+	width:1080px;
+	margin:0 auto;
+	padding:40px 0px 55px 0px;
+	text-align:center;
+	color:#fff;
+}
+#footer .footer_innner h6{
+	margin:0px;
+	padding:0px 0px 10px 0px;
+	font-size:14px;
+	font-weight:bold;
+}
+#footer .footer_innner p{
+	font-size:12px;
+	line-height:1.8;
+}
+#footer .footer_innner ul{
+	margin:20px auto 0px auto;
+	padding:30px 0px 0px 50px;
+	border-top:1px solid #C6B9A2;
+	list-style-type: none;
+}
+#footer .footer_innner li{
+	margin:0px;
+	padding:0px 30px;
+	list-style-type:none;
+	font-family: 'Playfair Display SC';
+	float:left;
+}
+#footer .ul-float{
+	}
+#footer .footer_innner li a:link,
+#footer .footer_innner li a:visited{
+	color: #fff;
+    transition: 1.0s;
+}
+#footer .footer_innner li a:hover{
+	color:#DDD6C8;
+	text-decoration:none;
+}
+/* page-top
+----------------------------------------------- */
+#footer .page-top {
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    padding: 10px;
+    background: #7e7a7a;
+    font-size: 12px;
+    -ms-filter: "alpha(opacity=80)";
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+}
+#footer .pagewaku a:link,
+#footer .pagewaku a:visited{
+	text-decoration: none;
+	color:#fff;
+}
+#footer .pagewaku a:hover{
+	text-decoration: none;
+	color:#fff;
+	background-color:#A7936F;
+}
+
+
+
+/* clearfix
+----------------------------------------------- */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	}
+
+.clearfix { display: inline-block;
+clear: both;}
+
+
+
+
+
+
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix { display: block;}
+/* End hide from IE-mac */
